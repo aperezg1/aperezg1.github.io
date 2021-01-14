@@ -18,4 +18,7 @@ function draw() {
 	arc(400, 300, 320, 320, 0, 2*PI*(m/60));
 	stroke("black");
 	arc(400, 300, 400, 400, 0, 2*PI*(h/24));
+	
+	if(m != minute())
+	    console.log("Value of minutes: "+minute())
 }
